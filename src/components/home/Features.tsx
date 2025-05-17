@@ -5,7 +5,7 @@ const features = [
   {
     icon: <Shield className="h-10 w-10 text-brand-highlight" />,
     title: 'Secure Process',
-    description: 'Our unlocking process is completely secure and doesn't void your warranty or damage your device.'
+    description: "Our unlocking process is completely secure and doesn't void your warranty or damage your device."
   },
   {
     icon: <Zap className="h-10 w-10 text-brand-highlight" />,
@@ -20,7 +20,7 @@ const features = [
   {
     icon: <CheckSquare className="h-10 w-10 text-brand-highlight" />,
     title: 'Guaranteed Results',
-    description: 'We offer a 100% money-back guarantee if we're unable to unlock your device successfully.'
+    description: "We offer a 100% money-back guarantee if we're unable to unlock your device successfully."
   },
   {
     icon: <Users className="h-10 w-10 text-brand-highlight" />,

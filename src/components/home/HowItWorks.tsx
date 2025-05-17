@@ -10,7 +10,7 @@ const steps = [
   {
     icon: <ListChecks className="h-12 w-12 text-brand" />,
     title: 'Submit Device Details',
-    description: 'Provide your iPhone's IMEI/Serial number and any other required information.'
+    description: "Provide your iPhone's IMEI/Serial number and any other required information."
   },
   {
     icon: <ArrowRight className="h-12 w-12 text-brand" />,
