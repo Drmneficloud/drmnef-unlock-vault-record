@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import { Menu, X, ShieldCheck, Users, Smartphone, Activity } from "lucide-react";
+import { Menu, X, ShieldCheck } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link to="/track" className="text-foreground hover:text-brand transition-colors">Track Order</Link>
             <Link to="/faq" className="text-foreground hover:text-brand transition-colors">FAQ</Link>
             <Link to="/contact" className="text-foreground hover:text-brand transition-colors">Contact</Link>
-            <Link to="/admin" className="text-foreground hover:text-brand transition-colors">Admin</Link>
+            <Link to="/admin/login" className="text-foreground hover:text-brand transition-colors">Admin</Link>
           </div>
 
           {/* Get Started Button (Desktop) */}
@@ -88,7 +88,7 @@ const Navbar = () => {
               Contact
             </Link>
             <Link 
-              to="/admin" 
+              to="/admin/login" 
               className="block py-2 px-4 text-foreground hover:bg-muted rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
